@@ -2,3 +2,5 @@
 _init/
 _data/train/
 _data/val/
+model_init_*/
+.ipynb_checkpoints/

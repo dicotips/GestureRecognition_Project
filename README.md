@@ -53,7 +53,7 @@ git clone https://github.com/dicotips/GestureRecognition_Project.git
 3. Open the ** *.ipynb** notebook file in Anaconda.
 
 ```
-jupyter notebook Jheser_Guzman_CNN.ipynb
+jupyter notebook Jheser_Guzman_GestureRecognition.ipynb
 ```
 
 ## Goals of this Project
@@ -70,7 +70,8 @@ You need to accomplish the following in the project:
 
 ## Final Conclusion
 
-TBD
+The best performing model was based on Time Distributed Conv2D and ConvLSTM2D (see attached Jupyter Notebook). It gave the best results so far compared to all the other models based only on Conv3D or TimeDistributed+GRU. The best performing model the least number of parameters as well compared with the other iterations.
+
 ### Future Word
 
-TBD
+This experiment was performed using Anaconda3 on a M1 Max computer. The problem on this ARM64 architecture is the supported Metal libraries for TensorFlow to use the GPU. Using the GPU would speed up all the experimentation in many orders of magnitude, since it was using CPU only for now.
